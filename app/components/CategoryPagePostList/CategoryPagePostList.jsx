@@ -6,7 +6,7 @@ const CategoryPagePostList = (category) => {
   return (
       <div key={category.id} className='w-full drop-shadow-md'>
         <div className='py-3 px-5 bg-[#22004f] rounded-tl-xl'>
-        <Link href={`/blogs/${category.slug}`}>
+        <Link href={`/writings/${category.slug}`}>
           <h2 className='text-[30px]'>{category.title}</h2>
         </Link>
         <p className='text-[20px] text-[color:var(--softTextColor)]'>{category.desc}</p>

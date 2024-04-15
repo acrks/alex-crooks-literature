@@ -12,7 +12,7 @@ const Header = () => {
         <nav className='w-max py-3 px-8 text-[#] font-medium gap-x-10 flex items-center fixed top-6 right-1/2 translate-x-1/2 bg-light/80'>
             <Link href='/' className='mr-2 hover:scale-[1.15] transition-all duration-200'>Home</Link>
             <Link href='/about' className='mr-2 hover:scale-[1.15] transition-all duration-200'>About</Link>
-            <Link href='/blogs' className='mr-2 hover:scale-[1.15] transition-all duration-200'>Writings</Link>
+            <Link href='/writings' className='mr-2 hover:scale-[1.15] transition-all duration-200'>Writings</Link>
             {/* <ThemeToggle /> */}
         </nav>
         <div>

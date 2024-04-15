@@ -5,7 +5,7 @@ import { getDate } from '@/app/api/functions'
 
 const CategoryPagePostListCard = (post) => {
   return (
-        <Link href={`/blogs/${post.catSlug}/${post.slug}`}>
+        <Link href={`/writings/${post.catSlug}/${post.slug}`}>
             <div key={post.id} className="ease-out duration-200 flex flex-col w-[500px] h-[400px] drop-shadow-[0_0_5px_rgba(191,191,191,0.15)] hover:drop-shadow-[0_0_5px_rgba(191,191,191,0.25)] hover:scale-[1.025]">
                 <div className='flex overflow-hidden w-full h-[200px] relative rounded-t-lg'>
                     <Image src={post.img} alt="post list card here" className="w-full h-auto object-cover -z-50" fill={true}/>

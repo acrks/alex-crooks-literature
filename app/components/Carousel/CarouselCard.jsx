@@ -26,7 +26,7 @@ const CarouselCard = ({post}) => {
       {post.desc}          
       </p>
       {/* Read More Button */}
-      <Link href={`/blogs/${post.catSlug}/${post.slug}`}>
+      <Link href={`/writings/${post.catSlug}/${post.slug}`}>
       <button
       className="px-[20px] py-[16px] rounded-[5px] border-0 w-max buttonhover">
         Read More

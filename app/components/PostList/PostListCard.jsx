@@ -31,7 +31,7 @@ const PostListCard = ({img, title, desc, createdAt, catSlug, slug}) => {
         </p>
         {/* Read More */}
         <div>
-            <Link href={`/blogs/${catSlug}/${slug}`}>
+            <Link href={`/writings/${catSlug}/${slug}`}>
             <button
           className="px-[20px] py-[16px] rounded-[5px] border-0 w-max buttonhover">
                 Read More
