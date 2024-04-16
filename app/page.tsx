@@ -14,7 +14,7 @@ const Home = async () => {
       {/* Title */}
       <h1 className='text-[96px]'>
       <b>Alex Crooks Literature</b><br/>
-      <span className='text-[60px]'>I'm a writer based out of San Diego, California, with a passion for </span>
+      <span className='text-[60px]'>I'm a writer based out of San Diego, California. Thanks for visiting my web page, take a look around and let me know which pieces you enjoy the most!</span>
       </h1>
     <Featured
       featuredPosts = {featuredPosts}

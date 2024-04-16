@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Manrope, Sora, Lexend, Questrial, Cabin } from "next/font/google";
+import { Inter, Manrope, Sora, Lexend, Questrial, Cabin, Outfit, Figtree } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import { cx } from "../utils/index";
@@ -38,6 +38,17 @@ const questrial = Questrial({
   variable: "--font-qu",
   weight: ["400"]
 });
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-ou",
+})
+const figtree = Figtree({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-fi",
+})
 
 export const metadata: Metadata = {
   title: "Alex Crooks Literature",

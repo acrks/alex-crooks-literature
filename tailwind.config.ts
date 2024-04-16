@@ -21,7 +21,9 @@ const config: Config = {
       so: ["var(--font-sora)"],
       lx: ["var(--font-lx)"],
       qu: ["var(--font-qu)"],
-      ca: ["var(--font-ca)"]
+      ca: ["var(--font-ca)"],
+      ou: ["var(--font-ou)"],
+      fi: ["var(--font-fi)"]
     }
   },
   plugins: [],
